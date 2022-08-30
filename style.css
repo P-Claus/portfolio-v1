@@ -26,6 +26,12 @@ h2 {
     font-size: 23px;
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -2%;
+}
+
 p {
     font-size: 14px;
     color: var(--grey);
@@ -139,14 +145,73 @@ p {
 /********* Services *********/
 .overview {
     background-color: var(--light-blue);
+    
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.line-title {
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.line {
+    height: 55px;
+    margin-top: 26px;
+    margin-left: -10px;
 }
 
 .services-title {
     padding-top: 20px;
+    margin-left: 8px;
+}
+
+.left-services {
+    
+}
+
+.right-services {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .service-card {
     background-color: white;
     border-radius: 20px;
-    width: 250px;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
+
+.service-logo {
+    width: 30px;
+    margin: 15px 0 5px 20px;
+}
+
+.service-title {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.service-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: var(--black);
+    
+}
+
+.bg-img {
+    display: none;
+}
+
