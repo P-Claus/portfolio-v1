@@ -181,13 +181,15 @@ p {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 .service-card {
     background-color: white;
     border-radius: 20px;
-    width: 200px;
-    margin-left: 30px;
+    
+    max-width: 200px;
+    
     margin-bottom: 30px;
 }
 
