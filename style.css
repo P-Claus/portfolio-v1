@@ -152,15 +152,13 @@ p {
 }
 
 .services {
-    display: flex;
-    flex-direction: column;
+   
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .left-services {
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
@@ -304,29 +302,33 @@ p {
         margin-right: 50px;
     }
 
+    .container-2 {
+        width: 100vw;
+    }
+
+    .services-card {
+        max-width: 220px;
+        margin-right: 20px;
+    }
+
+    .right-services {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .services {
+        margin-top: 50px;
+    }
 }
 
 
 @media only screen and (min-width: 768px) {
-    .services {
-        flex-direction: row;
-    }
+   
 
-    .left-services {
-        margin-right: 50px;
-    }
+   
+    
 
-    .services-title {
-        
-    }
-    .right-services {
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 100px;
-        
-    }
-    .services-card {
-        max-width: 400px;
-        margin-right: 20px;
-    }
+    
 }
