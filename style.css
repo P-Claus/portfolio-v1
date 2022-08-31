@@ -24,6 +24,7 @@ h1 {
 
 h2 {
     font-size: 23px;
+    
 }
 
 h3 {
@@ -143,77 +144,73 @@ p {
 }
 
 /********* Services *********/
-.overview {
+.services-section {
+    display: flex;
+    justify-content: center;
     background-color: var(--light-blue);
-    
 }
 
 .services {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.line-title {
+.left-services {
     display: flex;
     margin-bottom: 30px;
-    
 }
 
 .line {
+    background-color: var(--blue);
+    width: 4px;
     height: 55px;
-    margin-top: 26px;
+    margin-top: 5px;
     margin-left: -10px;
 }
 
 .services-title {
-    padding-top: 20px;
-    margin-left: 8px;
+    padding-left: 8px;
 }
 
-.left-services {
-    
-}
-
-.right-services {
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
-.service-card {
+.services-card {
     background-color: white;
     border-radius: 20px;
-    
-    max-width: 200px;
-    
     margin-bottom: 30px;
 }
 
-.service-logo {
+.card-logo {
     width: 30px;
     margin: 15px 0 5px 20px;
 }
 
-.service-title {
+.card-title {
     margin-bottom: 5px;
     margin-left: 20px;
 }
 
-.service-paragraph {
+.card-paragraph {
     font-size: 14px;
     font-weight: 400;
     padding-bottom: 20px;
     margin-left: 20px;
     padding-right: 20px;
     color: var(--black);
-    
 }
 
-.bg-img {
-    display: none;
+/********* Latest Work *********/
+.latest-work-section {
+    display: flex;
+    justify-content: center;
 }
 
+.latest-work {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.latest-img {
+    max-width: 500px;
+}
