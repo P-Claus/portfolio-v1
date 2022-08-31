@@ -160,6 +160,7 @@ p {
 
 .left-services {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
@@ -179,6 +180,7 @@ p {
     background-color: white;
     border-radius: 20px;
     margin-bottom: 30px;
+    
 }
 
 .card-logo {
@@ -207,8 +209,8 @@ p {
 }
 
 .latest-work {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -251,9 +253,77 @@ p {
 .latest-img {
     width: 100%;
     position: relative;
-    overflow: hidden;
+    
 }
 
 .latest-img-div {
     max-width: 500px;
+}
+
+/********* Work With Me *********/
+.work-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-blue);
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.work-left {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.work-paragraph {
+    color: var(--black);
+}
+
+.email {
+    cursor: pointer;
+    color: black;
+}
+
+.email:hover {
+    opacity: 80%;
+}
+
+.copyright {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+/********* Responsiveness 576 - 768 *********/
+@media only screen and (min-width: 576px) {
+
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .services {
+        
+        flex-direction: row;
+    }
+    .left-services {
+        
+        
+    }
+    .right-services {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        
+    }
+    .services-card {
+        max-width: 200px;
+        margin-right: 20px;
+    }
 }
