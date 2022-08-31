@@ -309,11 +309,14 @@ p {
 
 @media only screen and (min-width: 768px) {
     .services {
-        
         flex-direction: row;
     }
+
     .left-services {
-        
+        margin-right: 50px;
+    }
+
+    .services-title {
         
     }
     .right-services {
@@ -323,7 +326,7 @@ p {
         
     }
     .services-card {
-        max-width: 200px;
+        max-width: 400px;
         margin-right: 20px;
     }
 }
