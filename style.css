@@ -2,6 +2,7 @@
     --black: #2B353F;
     --blue: #38B6FF;
     --grey: #6D7D8B;
+    --light-gray: #BBC8D4;
     --light-blue: rgba(56, 182, 255, 0.4);
 }
 
@@ -208,9 +209,51 @@ p {
 .latest-work {
     margin-bottom: 30px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
+.latest-caption {
+    color: var(--light-gray);
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.latest-title {
+    margin-bottom: 15px;
+}
+
+.tag-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.tag-card {
+    background-color: var(--light-blue);
+    color: var(--black);
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.latest-paragraph {
+    margin-bottom: 20px;
+}
+
+.latest-button {
+    background-color: var(--black);
+}
 
 .latest-img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.latest-img-div {
     max-width: 500px;
 }
