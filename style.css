@@ -44,7 +44,7 @@ p {
 .container {
     margin-left: 30px;
     margin-right: 30px;
-    max-width: 1158px;
+    max-width: 992px;
 }
 
 /********* Navbar *********/
@@ -183,6 +183,7 @@ p {
 
 .card-logo {
     width: 30px;
+    height: 40px;
     margin: 15px 0 5px 20px;
 }
 
@@ -198,6 +199,13 @@ p {
     margin-left: 20px;
     padding-right: 20px;
     color: var(--black);
+}
+.circle {
+    display: none;
+}
+
+.dots {
+    display: none;
 }
 
 /********* Latest Work *********/
@@ -258,6 +266,7 @@ p {
     max-width: 500px;
 }
 
+
 /********* Work With Me *********/
 .work-section {
     display: flex;
@@ -290,6 +299,7 @@ p {
 }
 
 .copyright {
+    margin-bottom: 15px;
     margin-top: 30px;
     font-size: 12px;
 }
@@ -307,8 +317,9 @@ p {
     }
 
     .services-card {
-        max-width: 220px;
+        max-width: 215px;
         margin-right: 20px;
+        box-shadow: 0px 30px 45px rgba(22, 22, 22, 0.15);
     }
 
     .right-services {
@@ -323,12 +334,114 @@ p {
     }
 }
 
+/********* Responsiveness 768 - 992 *********/
 
 @media only screen and (min-width: 768px) {
    
 
+    .hero {
+        flex-direction: row;
+    }
+
+    .title-30 {
+        font-size: 30px;
+    }
+
+    .title-28 {
+        font-size: 28px;
+    }
+
+    .title-25 {
+        font-size: 25px;
+    }
+
+    .left-hero {
+        max-width: 40%;
+        margin-top: 50px;
+    }
    
+    .hero-img-div {
+        max-width: 700px;
+        margin-bottom: 50px;
+    }
     
 
+    .line {
+        height: 78px;
+        margin-top: 6px;
+    }
+
+    .latest-work {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .latest-left {
+        max-width: 40%;
+    }
+
     
+    .latest-img-div {
+        max-width: 600px;
+    }
+
+    .work {
+        flex-direction: row;
+        margin-top: 65px;
+    }
+
+    .work-left {
+        width: 40%;
+    }
+    .work-right {
+        max-width: 60%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .scroll {
+        display: flex;
+        padding-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .caption {
+        transform: rotate(-90deg);
+        
+        
+    }
+    .down-arrow {
+        position: relative;
+        margin-left: -50px;
+        bottom: -24px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1160px) {
+    .circle {
+        display: inline;
+        position: relative;
+        right: -610px;
+        top: -360px;
+        z-index: -10;
+    }
+
+    .dots {
+        display: inline-block;
+        position: relative;
+        bottom: 27px;
+    }
+
+    .services {
+        margin-bottom: -100px;
+    }
 }
