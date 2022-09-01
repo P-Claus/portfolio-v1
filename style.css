@@ -424,6 +424,14 @@ p {
         height: 50px;
     }
 
+    .less-margin1 {
+        margin-bottom: 0px;
+    }
+
+    .less-margin2 {
+        margin-top: 30px;
+    }
+    
 }
 
 @media only screen and (min-width: 1160px) {
